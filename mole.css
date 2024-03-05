@@ -1,0 +1,52 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background: url("./mario-bg.jpg");
+    /* background-repeat:no-repeat; */
+    background-size:cover;
+    /* background-position:center; */
+}
+
+#board {
+    height: 540px;
+    width: 540px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background: url("./soil.png");
+    background-size: cover;
+    border: 3px solid white;
+    border-radius: 25px;
+}
+
+#board div {
+    width: 180px;
+    height: 180px;
+    background-image: url("./pipe.png");
+    background-size:cover;
+}
+
+#board div img {
+    width:100px;
+    height:100px;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+#btn {  
+    background-color: transparent;
+    border: 2px solid goldenrod;
+    padding: 5px 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 900;
+}
+
+#restart {
+    height: 40px;
+}
